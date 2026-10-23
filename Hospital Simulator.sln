@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalSim.Services", "Hos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalSim.Wpf", "HospitalSim.Wpf\HospitalSim.Wpf.csproj", "{FDB21E7F-DBB9-4903-8530-0230E193F65A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalSim.Sandbox", "HospitalSim.Sandbox\HospitalSim.Sandbox.csproj", "{D9E38E8F-E4C0-4F41-8F84-BD78FE94B13F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{FDB21E7F-DBB9-4903-8530-0230E193F65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDB21E7F-DBB9-4903-8530-0230E193F65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDB21E7F-DBB9-4903-8530-0230E193F65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E38E8F-E4C0-4F41-8F84-BD78FE94B13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E38E8F-E4C0-4F41-8F84-BD78FE94B13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E38E8F-E4C0-4F41-8F84-BD78FE94B13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E38E8F-E4C0-4F41-8F84-BD78FE94B13F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

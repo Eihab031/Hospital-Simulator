@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace HospitalSim.Core.Enum
 {
-    internal class PatientStatus
+    public enum PatientStatus
     {
+        Active,
+        Discharged,
+        Deceased
     }
 }

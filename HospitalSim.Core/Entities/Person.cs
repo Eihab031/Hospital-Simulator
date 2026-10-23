@@ -4,7 +4,7 @@ namespace HospitalSim.Core.Entities
 {
     public class Person
     {
-        public string Id { get; init; }= Guid.NewGuid().ToString();
+        public Guid Id { get; init; }= Guid.NewGuid();
         public required string FirstName { get;init;}
         public required string LastName { get; init; }
         public required Gender Gender { get; init; }

@@ -79,7 +79,19 @@ namespace HospitalSim.Core.Catalog
                 DeathChance=0.10,
                 Weight=2
             },
-
         };
+        public static Sickness Get(SicknessKind kind) => All[kind]; //Get sickness kind through its enum value
+
+        public static SicknessKind GetRandomSicknessKind(Random randomNum)
+        {
+            int total = All.Values.Sum(s => s.Weight);
+            var roll= randomNum.Next(total);
+            foreach(var sickness in All.Values)
+            {
+                roll-= sickness.Weight;
+                if (roll < 0) return sickness.Kind;
+            }
+            throw new InvalidOperationException("Weighted pick failed -weights must be positive");
+        }
     }
 }
